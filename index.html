@@ -1,24 +1,24 @@
-<!<!DOCTYPE html>>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Idowu Akorede Emmanuel | Data Analyst</title>
+<title>IDOWU AKOREDE Emmanuel | Data Analyst</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
   :root {
-    --violet: #7B00CC;
-    --violet-light: #9B30EE;
-    --violet-glow: rgba(123,0,204,0.3);
-    --violet-dim: rgba(123,0,204,0.1);
-    --dark: #0A0A12;
-    --dark2: #10101C;
-    --dark3: #16162A;
-    --card: #12121F;
-    --card2: #1A1A2E;
-    --border: rgba(123,0,204,0.25);
-    --text: #E8E0F5;
-    --text-muted: #8A82A0;
+    --mint: #00C896;
+    --mint-light: #00E5A8;
+    --mint-glow: rgba(0,200,150,0.3);
+    --mint-dim: rgba(0,200,150,0.1);
+    --dark: #080D0D;
+    --dark2: #0D1414;
+    --dark3: #0F1A1A;
+    --card: #0E1818;
+    --card2: #121E1E;
+    --border: rgba(0,200,150,0.25);
+    --text: #E8F5F2;
+    --text-muted: #7A9490;
     --amber: #E87C00;
     --teal: #00827F;
     --green: #16A34A;
@@ -39,7 +39,7 @@
   /* Custom cursor */
   .cursor {
     width: 12px; height: 12px;
-    background: var(--violet);
+    background: var(--mint);
     border-radius: 50%;
     position: fixed;
     pointer-events: none;
@@ -49,7 +49,7 @@
   }
   .cursor-ring {
     width: 36px; height: 36px;
-    border: 1px solid var(--violet-light);
+    border: 1px solid var(--mint-light);
     border-radius: 50%;
     position: fixed;
     pointer-events: none;
@@ -64,8 +64,8 @@
     position: fixed;
     inset: 0;
     background-image:
-      linear-gradient(rgba(123,0,204,0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(123,0,204,0.04) 1px, transparent 1px);
+      linear-gradient(rgba(0,200,150,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,200,150,0.04) 1px, transparent 1px);
     background-size: 40px 40px;
     pointer-events: none;
     z-index: 0;
@@ -89,7 +89,7 @@
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     font-size: 1.1rem;
-    color: var(--violet-light);
+    color: var(--mint-light);
     letter-spacing: 0.05em;
     text-decoration: none;
   }
@@ -115,7 +115,7 @@
     position: absolute;
     bottom: -4px; left: 0;
     width: 0; height: 1px;
-    background: var(--violet);
+    background: var(--mint);
     transition: width 0.3s;
   }
 
@@ -144,12 +144,12 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: var(--violet-dim);
+    background: var(--mint-dim);
     border: 1px solid var(--border);
     border-radius: 100px;
     padding: 6px 16px;
     font-size: 0.75rem;
-    color: var(--violet-light);
+    color: var(--mint-light);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-bottom: 32px;
@@ -158,7 +158,7 @@
     opacity: 0;
   }
 
-  .hero-tag span { width: 6px; height: 6px; background: var(--violet); border-radius: 50%; animation: pulse 2s infinite; }
+  .hero-tag span { width: 6px; height: 6px; background: var(--mint); border-radius: 50%; animation: pulse 2s infinite; }
 
   .hero-name {
     font-family: 'Syne', sans-serif;
@@ -172,7 +172,7 @@
 
   .hero-name .highlight {
     color: transparent;
-    -webkit-text-stroke: 1px var(--violet-light);
+    -webkit-text-stroke: 1px var(--mint-light);
   }
 
   .hero-subtitle {
@@ -185,7 +185,7 @@
     opacity: 0;
   }
 
-  .hero-subtitle strong { color: var(--violet-light); }
+  .hero-subtitle strong { color: var(--mint-light); }
 
   .hero-cta {
     display: flex;
@@ -196,7 +196,7 @@
   }
 
   .btn-primary {
-    background: var(--violet);
+    background: var(--mint);
     color: #fff;
     padding: 14px 32px;
     border-radius: 6px;
@@ -206,13 +206,13 @@
     font-size: 0.9rem;
     letter-spacing: 0.05em;
     transition: all 0.3s;
-    border: 1px solid var(--violet);
+    border: 1px solid var(--mint);
     cursor: none;
   }
 
   .btn-primary:hover {
-    background: var(--violet-light);
-    box-shadow: 0 0 30px var(--violet-glow);
+    background: var(--mint-light);
+    box-shadow: 0 0 30px var(--mint-glow);
     transform: translateY(-2px);
   }
 
@@ -232,8 +232,8 @@
   }
 
   .btn-outline:hover {
-    border-color: var(--violet);
-    color: var(--violet-light);
+    border-color: var(--mint);
+    color: var(--mint-light);
     transform: translateY(-2px);
   }
 
@@ -245,12 +245,12 @@
     opacity: 0;
   }
 
-  .stat { border-left: 2px solid var(--violet); padding-left: 16px; }
+  .stat { border-left: 2px solid var(--mint); padding-left: 16px; }
   .stat-num {
     font-family: 'Syne', sans-serif;
     font-size: 2rem;
     font-weight: 800;
-    color: var(--violet-light);
+    color: var(--mint-light);
   }
   .stat-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; letter-spacing: 0.1em; text-transform: uppercase; }
 
@@ -264,7 +264,7 @@
 
   .section-tag {
     font-size: 0.75rem;
-    color: var(--violet-light);
+    color: var(--mint-light);
     letter-spacing: 0.2em;
     text-transform: uppercase;
     margin-bottom: 12px;
@@ -307,15 +307,15 @@
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 2px;
-    background: linear-gradient(90deg, var(--violet), var(--violet-light));
+    background: linear-gradient(90deg, var(--mint), var(--mint-light));
     transform: scaleX(0);
     transition: transform 0.4s ease;
   }
 
   .project-card:hover {
-    border-color: var(--violet);
+    border-color: var(--mint);
     transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 30px var(--violet-glow);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 30px var(--mint-glow);
   }
 
   .project-card:hover::before { transform: scaleX(1); }
@@ -332,12 +332,12 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: var(--violet-dim);
+    background: var(--mint-dim);
     border: 1px solid var(--border);
     border-radius: 100px;
     padding: 4px 12px;
     font-size: 0.7rem;
-    color: var(--violet-light);
+    color: var(--mint-light);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -371,14 +371,14 @@
     border-radius: 6px;
     padding: 6px 12px;
     font-size: 0.75rem;
-    color: var(--violet-light);
+    color: var(--mint-light);
   }
 
   .metric span { color: var(--text-muted); }
 
   .project-insight {
-    background: rgba(123,0,204,0.08);
-    border-left: 3px solid var(--violet);
+    background: rgba(0,200,150,0.08);
+    border-left: 3px solid var(--mint);
     border-radius: 0 6px 6px 0;
     padding: 12px 16px;
     font-size: 0.78rem;
@@ -387,7 +387,7 @@
     margin-bottom: 20px;
   }
 
-  .project-insight strong { color: var(--violet-light); }
+  .project-insight strong { color: var(--mint-light); }
 
   .project-tags {
     display: flex;
@@ -425,7 +425,7 @@
     margin-bottom: 20px;
   }
 
-  .about-text p strong { color: var(--violet-light); }
+  .about-text p strong { color: var(--mint-light); }
 
   .skills-grid {
     display: grid;
@@ -442,8 +442,8 @@
   }
 
   .skill-card:hover {
-    border-color: var(--violet);
-    box-shadow: 0 0 20px var(--violet-glow);
+    border-color: var(--mint);
+    box-shadow: 0 0 20px var(--mint-glow);
   }
 
   .skill-icon { font-size: 1.5rem; margin-bottom: 10px; }
@@ -496,15 +496,15 @@
   }
 
   .contact-link:hover {
-    border-color: var(--violet);
-    color: var(--violet-light);
+    border-color: var(--mint);
+    color: var(--mint-light);
     transform: translateX(6px);
-    box-shadow: 0 0 20px var(--violet-glow);
+    box-shadow: 0 0 20px var(--mint-glow);
   }
 
   .contact-link-icon {
     width: 36px; height: 36px;
-    background: var(--violet-dim);
+    background: var(--mint-dim);
     border: 1px solid var(--border);
     border-radius: 8px;
     display: flex;
@@ -561,7 +561,7 @@
     color: var(--text-muted);
   }
 
-  footer span { color: var(--violet-light); }
+  footer span { color: var(--mint-light); }
 
   /* ANIMATIONS */
   @keyframes fadeUp {
@@ -600,7 +600,7 @@
     opacity: 0.12;
   }
 
-  .orb1 { width: 600px; height: 600px; background: var(--violet); top: -200px; right: -200px; }
+  .orb1 { width: 600px; height: 600px; background: var(--mint); top: -200px; right: -200px; }
   .orb2 { width: 400px; height: 400px; background: var(--teal); bottom: 20%; left: -150px; }
 
   @media (max-width: 768px) {
@@ -623,7 +623,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#home" class="nav-logo">@DataWithAkorede</a>
+  <a href="#home" class="nav-logo">DataWithAkorede</a>
   <ul class="nav-links">
     <li><a href="#home">Home</a></li>
     <li><a href="#projects">Projects</a></li>
@@ -636,8 +636,8 @@
 <section id="home">
   <div class="hero-tag"><span></span> Available for Remote Work</div>
   <h1 class="hero-name">
-    Idowu<br/>
-    <span class="highlight">Akorede</span>
+    IDOWU<br/>
+    <span class="highlight">AKOREDE</span>
   </h1>
   <p class="hero-subtitle">
     Data Analyst & <strong>Power BI Developer</strong> based in Lagos, Nigeria.<br/>
@@ -704,10 +704,10 @@
           <div style="font-size:0.7rem;color:var(--text-muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:16px;">Data Scope</div>
           <div style="display:flex;flex-direction:column;gap:10px;">
             <div style="display:flex;align-items:center;gap:10px;font-size:0.8rem;">
-              <div style="width:8px;height:8px;background:var(--violet);border-radius:50%;"></div> Trips & Routes
+              <div style="width:8px;height:8px;background:var(--mint);border-radius:50%;"></div> Trips & Routes
             </div>
             <div style="display:flex;align-items:center;gap:10px;font-size:0.8rem;">
-              <div style="width:8px;height:8px;background:var(--violet-light);border-radius:50%;"></div> Drivers & Performance
+              <div style="width:8px;height:8px;background:var(--mint-light);border-radius:50%;"></div> Drivers & Performance
             </div>
             <div style="display:flex;align-items:center;gap:10px;font-size:0.8rem;">
               <div style="width:8px;height:8px;background:var(--teal);border-radius:50%;"></div> Fuel Purchases
@@ -823,7 +823,7 @@
 
   <div class="about-grid">
     <div class="about-text fade-in">
-      <p>I'm <strong>Idowu Akorede Emmanuel</strong>, a data analyst trained at <strong>TS Academy</strong>, based in Lagos, Nigeria. I'm passionate about turning complex, messy data into clear visual stories that help people and businesses make better decisions.</p>
+      <p>I'm <strong>IDOWU AKOREDE Emmanuel</strong>, a data analyst trained at <strong>TS Academy</strong>, based in Lagos, Nigeria. I'm passionate about turning complex, messy data into clear visual stories that help people and businesses make better decisions.</p>
       <p>I work primarily with <strong>Power BI</strong> — from cleaning and modeling data to designing dashboards that actually get used. I enjoy the full process: understanding the business problem, building the data model, writing DAX measures, and crafting the final visual story.</p>
       <p>I've completed <strong>5 real-world analytics projects</strong> across logistics, retail, electronics, and business performance — each one teaching me something new about how data connects to decisions.</p>
       <p>I'm open to <strong>remote opportunities worldwide</strong> — full-time, contract, or internship roles where I can keep growing and contribute meaningful work.</p>
@@ -891,7 +891,7 @@
           <div class="contact-link-icon">🐦</div>
           <div>
             <div class="contact-link-text">Twitter / X</div>
-            <div class="contact-link-sub">@DataWithAkorede</div>
+            <div class="contact-link-sub">DataWithAkorede</div>
           </div>
         </a>
         <a href="https://github.com/DataWithAkorede" class="contact-link" target="_blank">
@@ -926,8 +926,8 @@
         <div class="avail-dot amber"></div>
         Visa sponsorship required for US relocation
       </div>
-      <div style="margin-top:28px;padding:20px;background:var(--violet-dim);border:1px solid var(--border);border-radius:8px;font-size:0.78rem;color:var(--text-muted);line-height:1.8;">
-        💡 <strong style="color:var(--violet-light);">Quick Note:</strong> For remote roles, no US work authorization is needed. I work from Lagos and collaborate across time zones seamlessly.
+      <div style="margin-top:28px;padding:20px;background:var(--mint-dim);border:1px solid var(--border);border-radius:8px;font-size:0.78rem;color:var(--text-muted);line-height:1.8;">
+        💡 <strong style="color:var(--mint-light);">Quick Note:</strong> For remote roles, no US work authorization is needed. I work from Lagos and collaborate across time zones seamlessly.
       </div>
     </div>
   </div>
@@ -935,7 +935,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>Built with 💜 by <span>@DataWithAkorede</span> · Lagos, Nigeria · 2026</p>
+  <p>Built with 💜 by <span>DataWithAkorede</span> · Lagos, Nigeria · 2026</p>
   <p style="margin-top:8px;font-size:0.7rem;">"Data is just data until you tell its story."</p>
 </footer>
 
@@ -964,12 +964,12 @@
     el.addEventListener('mouseenter', () => {
       cursor.style.transform = 'scale(2)';
       ring.style.transform = 'scale(1.5)';
-      ring.style.borderColor = '#9B30EE';
+      ring.style.borderColor = '#00E5A8';
     });
     el.addEventListener('mouseleave', () => {
       cursor.style.transform = 'scale(1)';
       ring.style.transform = 'scale(1)';
-      ring.style.borderColor = 'var(--violet-light)';
+      ring.style.borderColor = 'var(--mint-light)';
     });
   });
 
@@ -994,7 +994,7 @@
       if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
     });
     navLinks.forEach(a => {
-      a.style.color = a.getAttribute('href') === '#' + current ? '#9B30EE' : '';
+      a.style.color = a.getAttribute('href') === '#' + current ? '#00E5A8' : '';
     });
   });
 </script>
